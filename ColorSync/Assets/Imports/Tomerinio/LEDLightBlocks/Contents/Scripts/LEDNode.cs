@@ -26,10 +26,10 @@ public class LEDNode : MonoBehaviour
     private float maxIntensity = 1.0f;
     private float onTime = 0;
     private float maxOnTime = 1.0f;
-    private float onTimerSpeed = 2.0f;
+    private float onTimerSpeed = 5.0f;
     private float offTime = 0;
-    private float maxOffTime = 20.0f;
-    private float offTimerSpeed = 20.0f;
+    private float maxOffTime = 5.0f;
+    private float offTimerSpeed = 50.0f;
     // Emitted light increase/decrease controls.
     private enum LightState { INCR, DECR, IDLE}
     private LightState lightState = LightState.IDLE;
