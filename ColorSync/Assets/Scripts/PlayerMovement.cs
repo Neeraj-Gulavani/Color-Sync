@@ -38,4 +38,11 @@ public class PlayerMovement : MonoBehaviour
         Vector3 sideMove = Vector3.right * horInp * sideSpeed;
         rb.velocity = new Vector3(sideMove.x, rb.velocity.y, rb.velocity.z);
     }
+
+    void OnCollisionEnter(Collision collision)
+{
+    Rigidbody rb = GetComponent<Rigidbody>();
+    rb.velocity = Vector3.Reflect(rb.velocity, collision.contacts[0].normal) * 0.8f;
+}
+
 }

@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     private Renderer r;
+    public static string playerColour;
     // Start is called before the first frame update
     void Awake()
     {
         r = GetComponent<Renderer>();
+        playerColour = r.material.name.Replace(" (Instance)", "").ToLower();
     }
 
     // Update is called once per frame
@@ -19,9 +21,14 @@ public class PlayerManager : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        
         ColorAssign scr = other.GetComponent<ColorAssign>();
         if (scr!=null) {
-            if (scr.color.Replace("Color","")==r.material.name) {
+            string playerMatName = r.material.name.Replace(" (Instance)", "").ToLower();
+            string objMatName = scr.color.Replace("Color","").ToLower();
+            Debug.Log("Player : "+playerMatName);
+            Debug.Log("Crashed obj : "+objMatName);
+            if (playerMatName==objMatName) {
                 Debug.Log("nice");
             } else {
                 Debug.Log("fail");

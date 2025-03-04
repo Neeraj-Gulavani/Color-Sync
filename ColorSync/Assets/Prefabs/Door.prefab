@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8371305690079401591}
   - component: {fileID: 217338660538530247}
   - component: {fileID: 3149416342834315861}
+  - component: {fileID: 1245583702885909168}
   m_Layer: 8
   m_Name: LED_Blue_8
   m_TagString: Untagged
@@ -100,6 +101,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &1245583702885909168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390837434086396588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Center: {x: -0.000061035156, y: 0.00000011920929, z: -0.000000074505806}
 --- !u!1 &537646358243908660
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,6 +134,7 @@ GameObject:
   - component: {fileID: 1627234562154217324}
   - component: {fileID: 2490857672020697227}
   - component: {fileID: 4087955437650839147}
+  - component: {fileID: 4082251861977354877}
   m_Layer: 8
   m_Name: LED_Blue_12
   m_TagString: Untagged
@@ -200,6 +223,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &4082251861977354877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537646358243908660}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!1 &780240464807087252
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +258,7 @@ GameObject:
   - component: {fileID: 8489653110974126105}
   - component: {fileID: 4672199509216046764}
   - component: {fileID: 9027875598758808934}
+  - component: {fileID: 4061571974361943767}
   m_Layer: 8
   m_Name: LED_Blue_2
   m_TagString: Untagged
@@ -387,6 +432,27 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!65 &4061571974361943767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780240464807087252}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Center: {x: -0.000061035156, y: 0, z: -0.000000014901161}
 --- !u!1 &841000209458850859
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +465,7 @@ GameObject:
   - component: {fileID: 8635304979208789317}
   - component: {fileID: 8988160048331706800}
   - component: {fileID: 1197227911880610770}
+  - component: {fileID: 51184579252775762}
   m_Layer: 8
   m_Name: LED_Blue_3
   m_TagString: Untagged
@@ -487,6 +554,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &51184579252775762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841000209458850859}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000017881393}
 --- !u!1 &1625510829193975947
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,6 +587,7 @@ GameObject:
   - component: {fileID: 7385339638005866241}
   - component: {fileID: 6479444491930839906}
   - component: {fileID: 1902886961341527623}
+  - component: {fileID: 2164691725065347759}
   m_Layer: 8
   m_Name: LED_Blue_11
   m_TagString: Untagged
@@ -587,6 +676,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &2164691725065347759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625510829193975947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+  m_Center: {x: -0.000061035156, y: 0, z: -0.00000011920929}
 --- !u!1 &2195477622509990091
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +709,7 @@ GameObject:
   - component: {fileID: 8348780921785283099}
   - component: {fileID: 7309807736206117003}
   - component: {fileID: 2386484329739862472}
+  - component: {fileID: 1799412531394676012}
   m_Layer: 8
   m_Name: LED_Blue_9
   m_TagString: Untagged
@@ -687,6 +798,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &1799412531394676012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2195477622509990091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Center: {x: 0, y: 0.00000017881393, z: 0}
 --- !u!1 &3823613045702125596
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +874,7 @@ GameObject:
   - component: {fileID: 917968205333284209}
   - component: {fileID: 6332515684896916021}
   - component: {fileID: 4232497519885731322}
+  - component: {fileID: 1932727107514759318}
   m_Layer: 8
   m_Name: LED_Blue_1
   m_TagString: Untagged
@@ -830,6 +963,27 @@ MonoBehaviour:
   isFirstNode: 1
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &1932727107514759318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150574673525607819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!1 &5489370809279661902
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +996,7 @@ GameObject:
   - component: {fileID: 5763249615748967291}
   - component: {fileID: 2107419773339042475}
   - component: {fileID: 5802978566495010651}
+  - component: {fileID: 6633349782247287067}
   m_Layer: 8
   m_Name: LED_Blue_4
   m_TagString: Untagged
@@ -930,6 +1085,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &6633349782247287067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5489370809279661902}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0.00000023841858}
 --- !u!1 &6485553305408800495
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +1118,7 @@ GameObject:
   - component: {fileID: 7953927566561968679}
   - component: {fileID: 4500884815216036042}
   - component: {fileID: 8632655957279601214}
+  - component: {fileID: 5735571832311621355}
   m_Layer: 8
   m_Name: LED_Blue_5
   m_TagString: Untagged
@@ -1030,6 +1207,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &5735571832311621355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485553305408800495}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8458523819651207271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1240,7 @@ GameObject:
   - component: {fileID: 3823956821589699605}
   - component: {fileID: 2089211509422103934}
   - component: {fileID: 5300681038844684786}
+  - component: {fileID: 6893103622236588198}
   m_Layer: 8
   m_Name: LED_Blue_6
   m_TagString: Untagged
@@ -1130,6 +1329,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &6893103622236588198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458523819651207271}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+  m_Center: {x: 0, y: -0.0000009536743, z: -0.000000059604645}
 --- !u!1 &8686597344784142920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1362,7 @@ GameObject:
   - component: {fileID: 6749813196168075576}
   - component: {fileID: 6725879421930609429}
   - component: {fileID: 5684260248911729193}
+  - component: {fileID: 4189831604397249043}
   m_Layer: 8
   m_Name: LED_Blue_10
   m_TagString: Untagged
@@ -1230,6 +1451,27 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &4189831604397249043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8686597344784142920}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+  m_Center: {x: -0.000061035156, y: 0, z: -0.00000011920929}
 --- !u!1 &9014620406633301839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1484,7 @@ GameObject:
   - component: {fileID: 8796143402242259488}
   - component: {fileID: 6354624016461306259}
   - component: {fileID: 414407265496540436}
+  - component: {fileID: 3066605741080031976}
   m_Layer: 8
   m_Name: LED_Blue_7
   m_TagString: Untagged
@@ -1330,3 +1573,24 @@ MonoBehaviour:
   isFirstNode: 0
   isPointLightEn: 0
   slowProgress: 0
+--- !u!65 &3066605741080031976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9014620406633301839}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Center: {x: -0.000061035156, y: 0.000000029802322, z: -0.000000059604645}
