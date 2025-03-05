@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         ForwardMovement();
         SideMovement();
+        rb.AddForce(Vector3.down * 5f, ForceMode.Acceleration);
     }
 
     void ForwardMovement() {
@@ -39,10 +40,5 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector3(sideMove.x, rb.velocity.y, rb.velocity.z);
     }
 
-    void OnCollisionEnter(Collision collision)
-{
-    Rigidbody rb = GetComponent<Rigidbody>();
-    rb.velocity = Vector3.Reflect(rb.velocity, collision.contacts[0].normal) * 0.8f;
-}
 
 }

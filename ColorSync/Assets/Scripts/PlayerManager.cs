@@ -33,7 +33,8 @@ public class PlayerManager : MonoBehaviour
             } else {
                 Debug.Log("fail");
             }
-        }
         scr.gameObject.SetActive(false);
+        }
+        
     }
 }
