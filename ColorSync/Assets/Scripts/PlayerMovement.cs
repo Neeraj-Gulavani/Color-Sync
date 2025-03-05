@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody rb;
     public float targetSpeed=100f;
     public float force=500f;
     public float currentSpeed,sideSpeed=5f;
+    public TMP_Text scoreText;
+    public static int score=0;
     // Start is called before the first frame update
     void Awake()
     {
@@ -15,6 +17,18 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
+    void Update() {
+        int a = (int)(transform.position.z * 0.1f);
+        if (a<score) {
+
+        } else {
+        score = a;
+        if (score<0) {
+            score=0;
+        }
+        scoreText.text = score.ToString();
+        }
+    }
     void FixedUpdate()
     {
         ForwardMovement();

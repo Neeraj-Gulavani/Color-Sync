@@ -32,6 +32,7 @@ public class PlayerManager : MonoBehaviour
             if (playerMatName==objMatName) {
                 Debug.Log("nice");
             } else {
+                GameManager.instance.pscore = PlayerMovement.score;
                 SceneManager.LoadScene("Lose");
             }
         scr.gameObject.SetActive(false);

@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;   
     public GameObject[] templates;
-
+    public int pscore=0;
     void Start() {
         instance = this;
     }
