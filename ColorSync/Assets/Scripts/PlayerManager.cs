@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -31,7 +32,7 @@ public class PlayerManager : MonoBehaviour
             if (playerMatName==objMatName) {
                 Debug.Log("nice");
             } else {
-                Debug.Log("fail");
+                SceneManager.LoadScene("Lose");
             }
         scr.gameObject.SetActive(false);
         }
