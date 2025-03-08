@@ -2,11 +2,11 @@
 
 ## Game Overview
 
-Title: Color Sync  
-Genre: Hypercasual  
-Platform: Windows  
-Engine: Unity (C#)  
-Target Audience: Casual Windows Gamers  
+- Title: Color Sync  
+- Genre: Hypercasual  
+- Platform: Windows  
+- Engine: Unity (C#)  
+- Target Audience: Casual Windows Gamers  
 
 ## Gameplay Summary
 
@@ -17,7 +17,7 @@ Color Sync is a fast-paced, infinite runner game where the player controls a rol
 ### Movement:
 
 - Forward movement is automatic.
-- Player controls left and right movement using swipe or tilt input.
+- Player controls left and right movement using the Arrow keys or 'A' and 'D' keys.
 
 ### Obstacles:
 
