@@ -2,11 +2,11 @@
 
 ## Game Overview
 
-Title: Color Sync
-Genre: Hypercasual
-Platform: Windows
-Engine: Unity (C#)
-Target Audience: Casual Windows Gamers
+Title: Color Sync  
+Genre: Hypercasual  
+Platform: Windows  
+Engine: Unity (C#)  
+Target Audience: Casual Windows Gamers  
 
 ## Gameplay Summary
 
