@@ -41,12 +41,12 @@ public class PlayerManager : MonoBehaviour
         Color c;
         if (ColorUtility.TryParseHtmlString(objMatName, out c))
             {
-                var main= scr.transform.Find("CollectVFX").GetComponent<ParticleSystem>().main;
-                main.startColor = c;
-            }
-            scr.transform.Find("CollectVFX").GetComponent<ParticleSystem>().Clear();
-        scr.transform.Find("CollectVFX").GetComponent<ParticleSystem>().Play();
+               scr.GetComponent<ColorAssign>().DestroyBall(c);
+            } else {
+
         scr.gameObject.SetActive(false);
+            }
+            
         }
         
     }
